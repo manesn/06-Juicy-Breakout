@@ -5,20 +5,33 @@
 # This was quite the project! Below is what I have done:
 
 
-Added background
-Gave color to the ball, paddle, and blocks
-Animated how the blocks and paddles pop up onscreen
-Squeeze and shake paddle
-Ball wobbles after it hits something*
-Ball changes color after it hits something
-Blocks fall after being hit
-Blocks rotate and spin after hit
-Blocks darken/fade when hit
-Particle effect when block is hit
-Swirling pixel tornado effect to the blocks to all blocks (idea is to clear the screen of the "pixel clusters")
-Screen shake added
-"BING" sound added when block is hit (**intentionally loops for chaotic effect**)
-Added background music (Music by Nick Nitro:  https://soundcloud.com/ytnicknitro )
+-Added background
+
+-Gave color to the ball, paddle, and blocks
+
+-Animated how the blocks and paddles pop up onscreen
+
+-Squeeze and shake paddle
+
+-Ball wobbles after it hits something*
+
+-Ball changes color after it hits something
+
+-Blocks fall after being hit
+
+-Blocks rotate and spin after hit
+
+-Blocks darken/fade when hit
+
+-Particle effect when block is hit
+
+-Swirling pixel tornado effect to the blocks to all blocks (idea is to clear the screen of the "pixel clusters")
+
+-Screen shake added
+
+-"BING" sound added when block is hit (**intentionally loops for chaotic effect**)
+
+-Added background music (Music by Nick Nitro:  https://soundcloud.com/ytnicknitro )
  -**BONUS** kudos to you if you can guess a certain cartoon theme remixed here.
 
 
