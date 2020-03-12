@@ -10,19 +10,32 @@ margin_left = 232.0
 margin_top = 168.0
 margin_right = 792.0
 margin_bottom = 392.0
-color = Color( 0.0941176, 0.392157, 0.670588, 1 )
+color = Color( 0.0117647, 0.611765, 0.639216, 1 )
 
 [node name="Label" type="Label" parent="."]
 margin_top = 208.0
 margin_right = 1024.0
 margin_bottom = 344.0
+custom_colors/font_color = Color( 0.968627, 1, 0, 1 )
+custom_colors/font_outline_modulate = Color( 0.501961, 0.882353, 0, 1 )
+custom_colors/font_color_shadow = Color( 0.776471, 0.709804, 0, 1 )
 text = "You win!"
 align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Button" type="Button" parent="."]
 margin_left = 416.0
 margin_top = 304.0
 margin_right = 608.0
 margin_bottom = 352.0
+custom_colors/font_color_disabled = Color( 0.972549, 0.0784314, 1, 1 )
+custom_colors/font_color = Color( 0, 1, 0.882353, 1 )
+custom_colors/font_color_hover = Color( 1, 0.105882, 0.105882, 1 )
+custom_colors/font_color_pressed = Color( 0.164706, 0.568627, 0.764706, 1 )
 text = "Play again?"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

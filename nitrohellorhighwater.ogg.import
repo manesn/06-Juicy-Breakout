@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/nitrohellorhighwater.ogg-21a0ef9ec7e1a358273b748ff469b3ba.oggstr"
+
+[deps]
+
+source_file="res://nitrohellorhighwater.ogg"
+dest_files=[ "res://.import/nitrohellorhighwater.ogg-21a0ef9ec7e1a358273b748ff469b3ba.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -10,19 +10,27 @@ margin_left = 176.0
 margin_top = 168.0
 margin_right = 848.0
 margin_bottom = 328.0
-color = Color( 0.286275, 0.313726, 0.341176, 1 )
+color = Color( 0.027451, 0.25098, 0.47451, 1 )
 
 [node name="Label" type="Label" parent="."]
 margin_top = 200.0
 margin_right = 1024.0
 margin_bottom = 256.0
-text = "Game Over"
+text = "BOOOOOO! Game over, man!"
 align = 1
+percent_visible = -0.047619
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Button" type="Button" parent="."]
 margin_left = 416.0
 margin_top = 256.0
 margin_right = 608.0
 margin_bottom = 304.0
+custom_colors/font_color_disabled = Color( 1, 0, 0, 1 )
+custom_colors/font_color = Color( 0.52549, 1, 0.921569, 1 )
+custom_colors/font_color_hover = Color( 0.560784, 1, 0.0313726, 1 )
+custom_colors/font_color_pressed = Color( 0.423529, 0.239216, 0.878431, 1 )
 text = "Play Again?"
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
